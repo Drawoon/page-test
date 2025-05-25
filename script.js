@@ -45,7 +45,7 @@ findword.addEventListener("click", () => {
     googol = googol - mean + (z * sd);
     words--;
     display.innerHTML = googol.toString();
-    wordsdisplay.innerHTML = googol.toString();
+    wordsdisplay.innerHTML = words.toString();
 });
 
 let fraction = 137309;
